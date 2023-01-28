@@ -20,12 +20,21 @@ body{
     transform: translate(-50%);
     top: 20%;
     width: 50px;
-    background-color: yellow;
+    background-color: rgba(224, 224, 41, 0.425);
     height: 50px;
     border-radius: 50%;
     display: flex;
+    overflow: hidden;
 }
-.fa{
+.fa-regular{
     margin: 1px;
-    transform: translateX( -140px);
+    transform: translateY(0);
 }
+.rating{
+    position: absolute;
+}
+.fa-star{
+    color:lightgray;
+    cursor: pointer;
+}
+
